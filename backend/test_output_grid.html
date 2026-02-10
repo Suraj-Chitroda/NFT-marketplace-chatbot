@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT Grid View</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: 'hsl(222, 47%, 6%)',
+            foreground: 'hsl(210, 40%, 98%)',
+            card: 'hsl(222, 47%, 9%)',
+            primary: 'hsl(199, 89%, 48%)',
+            accent: 'hsl(270, 80%, 60%)',
+            muted: 'hsl(222, 30%, 18%)',
+            'muted-foreground': 'hsl(215, 20%, 55%)',
+            border: 'hsl(222, 30%, 18%)',
+            success: 'hsl(142, 76%, 45%)',
+            destructive: 'hsl(0, 84%, 60%)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .glass-card {
+      background: linear-gradient(145deg, hsl(222, 47%, 11%) 0%, hsl(222, 47%, 8%) 100%);
+      backdrop-filter: blur(12px);
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, hsl(199, 89%, 48%) 0%, hsl(270, 80%, 60%) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .glow-border:hover {
+      box-shadow: 0 0 30px hsl(199, 89%, 48%, 0.3);
+    }
+  </style>
+</head>
+<body class="bg-background text-foreground min-h-screen">
+  <!-- Main Content - NFT Grid -->
+  <main class="container mx-auto px-6 py-8">
+    <!-- NFT Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <!-- 
+        TEMPLATE LOOP: Iterate over nfts array 
+        Expected data structure per NFT:
+        {
+          "id": "nft-001",
+          "name": "NFT Name",
+          "collection": "Collection Name",
+          "image": "image_url",
+          "price": { "eth": 1.25, "usd": 3120 },
+          "lastSale": { "eth": 1.1 },
+          "owner": { "address": "0x..." },
+          "status": "listed",
+          "rarityRank": 128,
+          "likes": 342
+        }
+      -->
+      <div class="glass-card rounded-xl border border-border/50 overflow-hidden group glow-border transition-all duration-300">
+        <div class="relative">
+          <!-- NFT Image -->
+          <div class="aspect-square bg-cover bg-center" style="background-image: url('https://placehold.co/600x600/png?text=NFT+001');"></div>
+          
+          <div class="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          
+          <!-- Rarity Badge (optional) -->
+          <div class="absolute top-3 left-3">
+            <span class="px-2 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-purple-500 to-pink-500 text-white">Legendary</span>
+          </div>
+          
+          <!-- Like Button (optional) -->
+          <button class="absolute top-3 right-3 p-2 rounded-full bg-background/60 backdrop-blur-md text-muted-foreground hover:text-destructive transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+            </svg>
+          </button>
+          
+          <!-- Buy Button on Hover -->
+          <div class="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+            <button class="w-full py-2 rounded-lg bg-gradient-to-r from-primary to-accent hover:opacity-90 font-medium flex items-center justify-center gap-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+        
+        <!-- NFT Info -->
+        <div class="p-4">
+          <h3 class="font-semibold text-lg mb-1 hover:text-primary transition-colors cursor-pointer truncate">Cosmic Dreamer #001</h3>
+          <p class="text-sm text-muted-foreground mb-3">Cosmic Dreams</p>
+          
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-xs text-muted-foreground">Current Price</p>
+              <p class="font-bold text-lg">2.45 <span class="text-muted-foreground text-sm">ETH</span></p>
+            </div>
+            
+            <!-- Price Change (optional, if available) -->
+          </div>
+          
+          <!-- Last Sale & Owner -->
+          <div class="mt-3 pt-3 border-t border-border/50 flex items-center justify-between text-sm text-muted-foreground">
+            <span>Last: 2.1 ETH</span>
+            <span class="font-mono">0x1234...cdef</span>
+          </div>
+        </div>
+      </div>
+      <div class="glass-card rounded-xl border border-border/50 overflow-hidden group glow-border transition-all duration-300">
+        <div class="relative">
+          <!-- NFT Image -->
+          <div class="aspect-square bg-cover bg-center" style="background-image: url('https://placehold.co/600x600/png?text=NFT+002');"></div>
+          
+          <div class="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          
+          <!-- Rarity Badge (optional) -->
+          <div class="absolute top-3 left-3">
+            <span class="px-2 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-purple-500 to-pink-500 text-white">Legendary</span>
+          </div>
+          
+          <!-- Like Button (optional) -->
+          <button class="absolute top-3 right-3 p-2 rounded-full bg-background/60 backdrop-blur-md text-muted-foreground hover:text-destructive transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+            </svg>
+          </button>
+          
+          <!-- Buy Button on Hover -->
+          <div class="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+            <button class="w-full py-2 rounded-lg bg-gradient-to-r from-primary to-accent hover:opacity-90 font-medium flex items-center justify-center gap-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+        
+        <!-- NFT Info -->
+        <div class="p-4">
+          <h3 class="font-semibold text-lg mb-1 hover:text-primary transition-colors cursor-pointer truncate">Digital Phoenix #002</h3>
+          <p class="text-sm text-muted-foreground mb-3">Mythic Creatures</p>
+          
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-xs text-muted-foreground">Current Price</p>
+              <p class="font-bold text-lg">5.2 <span class="text-muted-foreground text-sm">ETH</span></p>
+            </div>
+            
+            <!-- Price Change (optional, if available) -->
+          </div>
+          
+          <!-- Last Sale & Owner -->
+          <div class="mt-3 pt-3 border-t border-border/50 flex items-center justify-between text-sm text-muted-foreground">
+            <span>Last: 4.8 ETH</span>
+            <span class="font-mono">0xabcd...7890</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

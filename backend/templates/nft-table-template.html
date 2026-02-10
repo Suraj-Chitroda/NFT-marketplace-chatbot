@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT Table View</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: 'hsl(222, 47%, 6%)',
+            foreground: 'hsl(210, 40%, 98%)',
+            card: 'hsl(222, 47%, 9%)',
+            primary: 'hsl(199, 89%, 48%)',
+            accent: 'hsl(270, 80%, 60%)',
+            muted: 'hsl(222, 30%, 18%)',
+            'muted-foreground': 'hsl(215, 20%, 55%)',
+            border: 'hsl(222, 30%, 18%)',
+            success: 'hsl(142, 76%, 45%)',
+            destructive: 'hsl(0, 84%, 60%)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .glass-card {
+      background: linear-gradient(145deg, hsl(222, 47%, 11%) 0%, hsl(222, 47%, 8%) 100%);
+      backdrop-filter: blur(12px);
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, hsl(199, 89%, 48%) 0%, hsl(270, 80%, 60%) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-background text-foreground min-h-screen">
+  <!-- Main Content - NFT Table -->
+  <main class="container mx-auto px-6 py-8">
+    <!-- Table -->
+    <div class="glass-card rounded-xl border border-border/50 overflow-hidden">
+      <table class="w-full">
+        <thead>
+          <tr class="border-b border-border/50">
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">Item</th>
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">Collection</th>
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">Price</th>
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">Last Sale</th>
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">24h Change</th>
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">Rarity</th>
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">Owner</th>
+            <th class="text-right px-4 py-3 text-muted-foreground font-medium">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 
+            TEMPLATE LOOP: Iterate over nfts array 
+            Expected data structure per NFT:
+            {
+              "id": "nft-001",
+              "name": "NFT Name",
+              "collection": "Collection Name",
+              "thumbnail": "thumbnail_url",
+              "price": { "eth": 1.25 },
+              "lastSale": { "eth": 1.1 },
+              "priceChange24h": 12.5,
+              "rarityRank": 128,
+              "owner": { "address": "0x..." }
+            }
+          -->
+          {% for nft in nfts %}
+          <tr class="border-b border-border/50 hover:bg-muted/30 transition-colors">
+            <!-- Item (Thumbnail + Name) -->
+            <td class="px-4 py-4">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-lg ring-2 ring-border/50 bg-cover bg-center" style="background-image: url('{{ nft.thumbnail }}');"></div>
+                <span class="font-medium">{{ nft.name }}</span>
+              </div>
+            </td>
+            
+            <!-- Collection -->
+            <td class="px-4 py-4 text-muted-foreground">{{ nft.collection }}</td>
+            
+            <!-- Price -->
+            <td class="px-4 py-4 font-semibold">{{ nft.price.eth }} ETH</td>
+            
+            <!-- Last Sale -->
+            <td class="px-4 py-4 text-muted-foreground">
+              {% if nft.lastSale %}
+              {{ nft.lastSale.eth }} ETH
+              {% else %}
+              -
+              {% endif %}
+            </td>
+            
+            <!-- 24h Change -->
+            <td class="px-4 py-4">
+              {% if nft.priceChange24h %}
+              <span class="flex items-center gap-1 {% if nft.priceChange24h > 0 %}text-success{% else %}text-destructive{% endif %}">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  {% if nft.priceChange24h > 0 %}
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                  {% else %}
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/>
+                  {% endif %}
+                </svg>
+                {{ nft.priceChange24h|abs }}%
+              </span>
+              {% else %}
+              <span class="text-muted-foreground">-</span>
+              {% endif %}
+            </td>
+            
+            <!-- Rarity Badge -->
+            <td class="px-4 py-4">
+              {% if nft.rarityRank <= 100 %}
+              <span class="px-2 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-purple-500 to-pink-500 text-white">Legendary</span>
+              {% elif nft.rarityRank <= 300 %}
+              <span class="px-2 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-amber-500 to-orange-500 text-white">Mythic</span>
+              {% elif nft.rarityRank <= 500 %}
+              <span class="px-2 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-blue-500 to-cyan-500 text-white">Rare</span>
+              {% else %}
+              <span class="px-2 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-primary to-accent text-white">Epic</span>
+              {% endif %}
+            </td>
+            
+            <!-- Owner -->
+            <td class="px-4 py-4 text-muted-foreground font-mono text-sm">
+              {{ nft.owner.address[:6] }}...{{ nft.owner.address[-4:] }}
+            </td>
+            
+            <!-- Action -->
+            <td class="px-4 py-4 text-right">
+              <button class="px-3 py-1.5 rounded-lg border border-primary/50 text-primary hover:bg-primary/10 transition-colors text-sm font-medium">
+                View
+              </button>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>

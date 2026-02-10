@@ -1,0 +1,130 @@
+═══════════════════════════════════════════════════════════════
+   NFT MARKETPLACE CHATBOT - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+📦 WHAT'S INCLUDED:
+  ✓ Backend NFT API (data provider)
+  ✓ AI Chatbot API (agent with tools)
+  ✓ React Frontend (chat interface)
+
+═══════════════════════════════════════════════════════════════
+
+🚀 RUNNING THE SYSTEM (3 Terminal Windows)
+
+Terminal 1: NFT API Backend
+────────────────────────────
+cd backend
+source ../venv/bin/activate
+python api_backend.py
+
+→ Runs on: http://localhost:4000
+→ Provides: NFT data, filtering, sorting
+
+
+Terminal 2: Chatbot API
+────────────────────────────
+source venv/bin/activate
+python agno-agent.py
+
+→ Runs on: http://localhost:8000
+→ Provides: AI chat endpoint
+
+
+Terminal 3: React Frontend
+────────────────────────────
+cd frontend
+npm run dev
+
+→ Runs on: http://localhost:5173
+→ Open this URL in your browser!
+
+═══════════════════════════════════════════════════════════════
+
+💬 TRY THESE QUERIES IN THE CHAT:
+
+  • "Show me some NFTs"
+  • "Find rare NFTs under 5 ETH"
+  • "Show NFTs from Meta Legends collection"
+  • "Tell me about NFT nft-042"
+  • "I prefer table view"
+
+═══════════════════════════════════════════════════════════════
+
+🔧 QUICK SCRIPTS:
+
+  ./start_frontend.sh          # Start React frontend
+  ./start_chatbot.sh           # Start chatbot API
+  python backend/api_backend.py # Start NFT API
+
+═══════════════════════════════════════════════════════════════
+
+📊 API ENDPOINTS:
+
+  Backend NFT API:
+    GET  /nfts              # List NFTs
+    GET  /nfts/{id}         # Get single NFT
+    GET  /health            # Health check
+
+  Chatbot API:
+    POST /chat              # Send message
+    GET  /health            # Health check
+    GET  /sessions/{user}   # List sessions
+
+  Frontend:
+    http://localhost:5173   # Chat interface
+
+═══════════════════════════════════════════════════════════════
+
+🐛 TROUBLESHOOTING:
+
+  Port already in use?
+    → Change ports in config files
+
+  CORS errors?
+    → Check nft_chatbot/config.py includes http://localhost:5173
+
+  Can't see NFTs?
+    → Make sure backend API is running on port 4000
+
+  API key error?
+    → Check .env file has GROQ_API_KEY set
+
+═══════════════════════════════════════════════════════════════
+
+📁 PROJECT STRUCTURE:
+
+  python-ai-agent-v2/
+  ├── backend/              # NFT API + templates
+  ├── nft_chatbot/          # AI agent package
+  ├── frontend/             # React chat UI ← NEW!
+  ├── agno-agent.py         # Chatbot entry point
+  └── .env                  # Environment config
+
+═══════════════════════════════════════════════════════════════
+
+✨ FEATURES:
+
+  Backend:
+    • Rate limiting (60 req/min)
+    • Custom database (SQLAlchemy)
+    • Memory & session management
+    • Anti-hallucination measures
+    • Dynamic HTML templates
+
+  Frontend:
+    • Real-time chat
+    • Markdown + HTML rendering
+    • Session persistence
+    • Auto-scroll
+    • Loading states
+    • Error handling
+
+═══════════════════════════════════════════════════════════════
+
+🎉 READY TO TEST!
+
+  1. Start all 3 services (see above)
+  2. Open http://localhost:5173
+  3. Start chatting about NFTs!
+
+═══════════════════════════════════════════════════════════════

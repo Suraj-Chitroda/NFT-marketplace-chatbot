@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: 'hsl(222, 47%, 6%)',
+            foreground: 'hsl(210, 40%, 98%)',
+            card: 'hsl(222, 47%, 9%)',
+            primary: 'hsl(199, 89%, 48%)',
+            accent: 'hsl(270, 80%, 60%)',
+            muted: 'hsl(222, 30%, 18%)',
+            'muted-foreground': 'hsl(215, 20%, 55%)',
+            border: 'hsl(222, 30%, 18%)',
+            success: 'hsl(142, 76%, 45%)',
+            destructive: 'hsl(0, 84%, 60%)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .glass-card {
+      background: linear-gradient(145deg, hsl(222, 47%, 11%) 0%, hsl(222, 47%, 8%) 100%);
+      backdrop-filter: blur(12px);
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, hsl(199, 89%, 48%) 0%, hsl(270, 80%, 60%) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .time-btn-active {
+      background: linear-gradient(135deg, hsl(199, 89%, 48%) 0%, hsl(270, 80%, 60%) 100%);
+    }
+  </style>
+</head>
+<body class="bg-background text-foreground min-h-screen">
+  <!-- Main Content - Crypto Details -->
+  <!-- 
+    Expected data structure:
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "icon": "₿",
+      "rank": 1,
+      "price": 43567.89,
+      "priceChange24h": 5.23,
+      "marketCap": 847200000000,
+      "marketCapChange": 2.1,
+      "volume24h": 28500000000,
+      "volumeChange": 15.3,
+      "circulatingSupply": 19400000,
+      "totalSupply": 21000000,
+      "ath": 69044,
+      "athChange": -36.9,
+      "low24h": 41234.56,
+      "high24h": 44567.89,
+      "change7d": 12.4,
+      "change30d": -5.2,
+      "marketDominance": 48.2,
+      "volumeMarketCapRatio": 3.36,
+      "description": "Brief description of the cryptocurrency...",
+      "chartData": {
+        "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "prices": [41200, 42500, 41800, 43200, 42800, 44100, 43567]
+      }
+    }
+  -->
+  <main class="container mx-auto px-6 py-8">
+    <!-- Token Header -->
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
+      <div class="flex items-center gap-4">
+        <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-3xl font-bold text-background">
+          {{ crypto.icon|default(crypto.symbol[:1]) }}
+        </div>
+        <div>
+          <div class="flex items-center gap-3">
+            <h1 class="text-3xl font-bold">{{ crypto.name }}</h1>
+            <span class="text-muted-foreground text-xl">{{ crypto.symbol }}</span>
+            {% if crypto.rank %}
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-muted text-muted-foreground">Rank #{{ crypto.rank }}</span>
+            {% endif %}
+          </div>
+          <div class="flex items-center gap-4 mt-1">
+            <span class="text-4xl font-bold gradient-text">${{ crypto.price|round(2) }}</span>
+            {% if crypto.priceChange24h %}
+            <span class="flex items-center gap-1 {% if crypto.priceChange24h > 0 %}text-success{% else %}text-destructive{% endif %}">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {% if crypto.priceChange24h > 0 %}
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                {% else %}
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/>
+                {% endif %}
+              </svg>
+              <span class="text-lg font-semibold">{{ crypto.priceChange24h|abs }}%</span>
+            </span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid lg:grid-cols-3 gap-8">
+      <!-- Chart Section -->
+      <div class="lg:col-span-2">
+        <div class="glass-card rounded-xl border border-border/50 p-6">
+          <div class="flex items-center justify-between mb-6">
+            <h2 class="text-xl font-semibold">Price Chart</h2>
+          </div>
+          <div class="h-80">
+            <canvas id="priceChart"></canvas>
+          </div>
+        </div>
+        
+        <!-- Market Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+          <div class="glass-card rounded-xl border border-border/50 p-4">
+            <p class="text-sm text-muted-foreground mb-1">Market Cap</p>
+            <p class="text-xl font-bold">${{ (crypto.marketCap / 1000000000)|round(1) }}B</p>
+            {% if crypto.marketCapChange %}
+            <p class="text-sm {% if crypto.marketCapChange > 0 %}text-success{% else %}text-destructive{% endif %}">
+              {{ crypto.marketCapChange|abs }}%
+            </p>
+            {% endif %}
+          </div>
+          <div class="glass-card rounded-xl border border-border/50 p-4">
+            <p class="text-sm text-muted-foreground mb-1">24h Volume</p>
+            <p class="text-xl font-bold">${{ (crypto.volume24h / 1000000000)|round(1) }}B</p>
+            {% if crypto.volumeChange %}
+            <p class="text-sm {% if crypto.volumeChange > 0 %}text-success{% else %}text-destructive{% endif %}">
+              +{{ crypto.volumeChange }}%
+            </p>
+            {% endif %}
+          </div>
+          <div class="glass-card rounded-xl border border-border/50 p-4">
+            <p class="text-sm text-muted-foreground mb-1">Circulating Supply</p>
+            <p class="text-xl font-bold">{{ (crypto.circulatingSupply / 1000000)|round(1) }}M {{ crypto.symbol }}</p>
+            {% if crypto.totalSupply %}
+            <p class="text-sm text-muted-foreground">{{ ((crypto.circulatingSupply / crypto.totalSupply) * 100)|round(1) }}%</p>
+            {% endif %}
+          </div>
+          <div class="glass-card rounded-xl border border-border/50 p-4">
+            <p class="text-sm text-muted-foreground mb-1">All-Time High</p>
+            <p class="text-xl font-bold">${{ crypto.ath|round(0) }}</p>
+            {% if crypto.athChange %}
+            <p class="text-sm text-destructive">{{ crypto.athChange }}%</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right Sidebar -->
+      <div class="space-y-6">
+        <!-- Converter -->
+        <div class="glass-card rounded-xl border border-border/50 p-6">
+          <h3 class="text-lg font-semibold mb-4">Currency Converter</h3>
+          <div class="space-y-4">
+            <div>
+              <label class="text-sm text-muted-foreground mb-2 block">{{ crypto.symbol }} Amount</label>
+              <div class="relative">
+                <input type="number" value="1" class="w-full bg-muted border border-border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary" />
+                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-muted-foreground font-medium">{{ crypto.symbol }}</span>
+              </div>
+            </div>
+            <div class="flex justify-center">
+              <button class="p-2 rounded-full bg-muted hover:bg-muted/70 transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/>
+                </svg>
+              </button>
+            </div>
+            <div>
+              <label class="text-sm text-muted-foreground mb-2 block">USD Value</label>
+              <div class="relative">
+                <input type="text" value="{{ crypto.price|round(2) }}" readonly class="w-full bg-muted border border-border rounded-lg px-4 py-3 focus:outline-none" />
+                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-muted-foreground font-medium">USD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Price Statistics -->
+        <div class="glass-card rounded-xl border border-border/50 p-6">
+          <h3 class="text-lg font-semibold mb-4">Price Statistics</h3>
+          <div class="space-y-4">
+            {% if crypto.low24h %}
+            <div class="flex justify-between py-2 border-b border-border/50">
+              <span class="text-muted-foreground">24h Low</span>
+              <span class="font-medium">${{ crypto.low24h|round(2) }}</span>
+            </div>
+            {% endif %}
+            {% if crypto.high24h %}
+            <div class="flex justify-between py-2 border-b border-border/50">
+              <span class="text-muted-foreground">24h High</span>
+              <span class="font-medium">${{ crypto.high24h|round(2) }}</span>
+            </div>
+            {% endif %}
+            {% if crypto.change7d %}
+            <div class="flex justify-between py-2 border-b border-border/50">
+              <span class="text-muted-foreground">7d Change</span>
+              <span class="font-medium {% if crypto.change7d > 0 %}text-success{% else %}text-destructive{% endif %}">
+                {{ crypto.change7d }}%
+              </span>
+            </div>
+            {% endif %}
+            {% if crypto.change30d %}
+            <div class="flex justify-between py-2 border-b border-border/50">
+              <span class="text-muted-foreground">30d Change</span>
+              <span class="font-medium {% if crypto.change30d > 0 %}text-success{% else %}text-destructive{% endif %}">
+                {{ crypto.change30d }}%
+              </span>
+            </div>
+            {% endif %}
+            {% if crypto.marketDominance %}
+            <div class="flex justify-between py-2 border-b border-border/50">
+              <span class="text-muted-foreground">Market Dominance</span>
+              <span class="font-medium">{{ crypto.marketDominance }}%</span>
+            </div>
+            {% endif %}
+            {% if crypto.volumeMarketCapRatio %}
+            <div class="flex justify-between py-2">
+              <span class="text-muted-foreground">Volume/Market Cap</span>
+              <span class="font-medium">{{ crypto.volumeMarketCapRatio }}%</span>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        
+        <!-- About -->
+        {% if crypto.description %}
+        <div class="glass-card rounded-xl border border-border/50 p-6">
+          <h3 class="text-lg font-semibold mb-4">About {{ crypto.name }}</h3>
+          <p class="text-muted-foreground text-sm leading-relaxed">
+            {{ crypto.description }}
+          </p>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </main>
+  
+  <script>
+    // Initialize Chart with dynamic data
+    const ctx = document.getElementById('priceChart').getContext('2d');
+    
+    const gradient = ctx.createLinearGradient(0, 0, 0, 320);
+    gradient.addColorStop(0, 'hsla(199, 89%, 48%, 0.3)');
+    gradient.addColorStop(1, 'hsla(199, 89%, 48%, 0)');
+    
+    // Chart data from template variable
+    const chartLabels = {{ crypto.chartData.labels|tojson|safe }};
+    const chartPrices = {{ crypto.chartData.prices|tojson|safe }};
+    
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: chartLabels,
+        datasets: [{
+          label: '{{ crypto.symbol }} Price',
+          data: chartPrices,
+          fill: true,
+          backgroundColor: gradient,
+          borderColor: 'hsl(199, 89%, 48%)',
+          borderWidth: 2,
+          tension: 0.4,
+          pointBackgroundColor: 'hsl(199, 89%, 48%)',
+          pointBorderColor: 'hsl(222, 47%, 6%)',
+          pointBorderWidth: 2,
+          pointRadius: 4,
+          pointHoverRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: 'hsl(222, 47%, 11%)',
+            titleColor: 'hsl(210, 40%, 98%)',
+            bodyColor: 'hsl(210, 40%, 98%)',
+            borderColor: 'hsl(222, 30%, 18%)',
+            borderWidth: 1,
+            padding: 12,
+            displayColors: false,
+            callbacks: {
+              label: (context) => `$${context.parsed.y.toLocaleString()}`
+            }
+          }
+        },
+        scales: {
+          x: {
+            grid: { color: 'hsl(222, 30%, 18%, 0.5)' },
+            ticks: { color: 'hsl(215, 20%, 55%)' }
+          },
+          y: {
+            grid: { color: 'hsl(222, 30%, 18%, 0.5)' },
+            ticks: {
+              color: 'hsl(215, 20%, 55%)',
+              callback: (value) => '$' + value.toLocaleString()
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

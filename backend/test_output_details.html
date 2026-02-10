@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: 'hsl(222, 47%, 6%)',
+            foreground: 'hsl(210, 40%, 98%)',
+            card: 'hsl(222, 47%, 9%)',
+            primary: 'hsl(199, 89%, 48%)',
+            accent: 'hsl(270, 80%, 60%)',
+            muted: 'hsl(222, 30%, 18%)',
+            'muted-foreground': 'hsl(215, 20%, 55%)',
+            border: 'hsl(222, 30%, 18%)',
+            success: 'hsl(142, 76%, 45%)',
+            destructive: 'hsl(0, 84%, 60%)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .glass-card {
+      background: linear-gradient(145deg, hsl(222, 47%, 11%) 0%, hsl(222, 47%, 8%) 100%);
+      backdrop-filter: blur(12px);
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, hsl(199, 89%, 48%) 0%, hsl(270, 80%, 60%) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .tab-active {
+      border-bottom: 2px solid hsl(199, 89%, 48%);
+      color: hsl(210, 40%, 98%);
+    }
+  </style>
+</head>
+<body class="bg-background text-foreground min-h-screen">
+  <!-- Main Content - NFT Details -->
+  <!-- 
+    Expected data structure:
+    {
+      "id": "nft-001",
+      "name": "NFT Name",
+      "collection": "Collection Name",
+      "image": "full_image_url",
+      "description": "NFT description text",
+      "rarityRank": 128,
+      "price": { "eth": 2.45, "usd": 4523.50 },
+      "priceChange": 12.5,
+      "lastSale": { "eth": 2.10 },
+      "highestBid": { "eth": 2.30 },
+      "creator": { "address": "0x...", "username": "artist" },
+      "owner": { "address": "0x...", "username": "collector" },
+      "views": 1234,
+      "likes": 89,
+      "status": "listed",
+      "attributes": [
+        { "trait_type": "Background", "value": "Cosmic Purple", "rarity": "12%" }
+      ],
+      "history": [
+        { 
+          "event": "Sale", 
+          "price": { "eth": 2.10 }, 
+          "from": "0x...", 
+          "to": "0x...", 
+          "timestamp": "2 hours ago" 
+        }
+      ]
+    }
+  -->
+  <main class="container mx-auto px-6 py-8">
+    <div class="grid lg:grid-cols-2 gap-8">
+      <!-- Left Column - Image & Properties -->
+      <div>
+        <!-- NFT Image -->
+        <div class="glass-card rounded-2xl border border-border/50 overflow-hidden">
+          <div class="aspect-square bg-cover bg-center" style="background-image: url('https://placehold.co/600x600/png?text=NFT+001');"></div>
+        </div>
+        
+        <!-- Properties Grid -->
+        <div class="glass-card rounded-xl border border-border/50 p-6 mt-6">
+          <h3 class="text-lg font-semibold mb-4">Properties</h3>
+          <div class="grid grid-cols-3 gap-3">
+            <div class="bg-primary/10 border border-primary/30 rounded-lg p-3 text-center">
+              <p class="text-xs text-primary uppercase mb-1">Background</p>
+              <p class="font-medium text-sm">Cosmic Purple</p>
+              <p class="text-xs text-muted-foreground mt-1">12% have this</p>
+            </div>
+            <div class="bg-primary/10 border border-primary/30 rounded-lg p-3 text-center">
+              <p class="text-xs text-primary uppercase mb-1">Eyes</p>
+              <p class="font-medium text-sm">Laser Red</p>
+              <p class="text-xs text-muted-foreground mt-1">5% have this</p>
+            </div>
+            <div class="bg-primary/10 border border-primary/30 rounded-lg p-3 text-center">
+              <p class="text-xs text-primary uppercase mb-1">Outfit</p>
+              <p class="font-medium text-sm">Space Suit</p>
+              <p class="text-xs text-muted-foreground mt-1">8% have this</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right Column - Details -->
+      <div>
+        <!-- Collection & Rarity -->
+        <div class="flex items-center gap-3 mb-4">
+          <span class="px-3 py-1 rounded-full text-sm font-medium bg-gradient-to-r from-purple-500 to-pink-500 text-white">Legendary</span>
+          <span class="text-muted-foreground">Cosmic Dreams Collection</span>
+        </div>
+        
+        <!-- NFT Name -->
+        <h1 class="text-4xl font-bold mb-4">Cosmic Dreamer #001</h1>
+        
+        <!-- Creator & Owner -->
+        <div class="flex items-center gap-4 mb-6">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-accent"></div>
+            <div>
+              <p class="text-xs text-muted-foreground">Creator</p>
+              <p class="font-mono text-sm">0xCreato...r001</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-accent to-primary"></div>
+            <div>
+              <p class="text-xs text-muted-foreground">Owner</p>
+              <p class="font-mono text-sm">0x123456...cdef</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Price Card -->
+        <div class="glass-card rounded-xl border border-border/50 p-6 mb-6">
+          <p class="text-muted-foreground mb-2">Current Price</p>
+          <div class="flex items-baseline gap-3 mb-4">
+            <span class="text-4xl font-bold gradient-text">2.45 ETH</span>
+            <span class="text-muted-foreground">($6125)</span>
+            <span class="flex items-center gap-1 text-success text-sm">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+              </svg>
+              12.5%
+            </span>
+          </div>
+          
+          <div class="flex gap-3">
+            <button class="flex-1 py-3 rounded-lg bg-gradient-to-r from-primary to-accent hover:opacity-90 font-semibold flex items-center justify-center gap-2">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+              Buy Now
+            </button>
+            <button class="flex-1 py-3 rounded-lg border border-primary text-primary hover:bg-primary/10 font-semibold">
+              Make Offer
+            </button>
+          </div>
+        </div>
+        
+        <!-- Stats Grid -->
+        <div class="grid grid-cols-2 gap-4 mb-6">
+          <div class="glass-card rounded-xl border border-border/50 p-4">
+            <p class="text-sm text-muted-foreground mb-1">Last Sale</p>
+            <p class="text-xl font-bold">
+              2.1 ETH
+            </p>
+          </div>
+          <div class="glass-card rounded-xl border border-border/50 p-4">
+            <p class="text-sm text-muted-foreground mb-1">Highest Bid</p>
+            <p class="text-xl font-bold">
+              2.3 ETH
+            </p>
+          </div>
+          <div class="glass-card rounded-xl border border-border/50 p-4">
+            <p class="text-sm text-muted-foreground mb-1">Views</p>
+            <p class="text-xl font-bold">4120</p>
+          </div>
+          <div class="glass-card rounded-xl border border-border/50 p-4">
+            <p class="text-sm text-muted-foreground mb-1">Favorites</p>
+            <p class="text-xl font-bold">342</p>
+          </div>
+        </div>
+        
+        <!-- Activity History -->
+        <div class="glass-card rounded-xl border border-border/50 overflow-hidden">
+          <div class="flex border-b border-border/50">
+            <button class="flex-1 px-4 py-3 text-sm font-medium tab-active">Activity</button>
+          </div>
+          <div class="p-4 max-h-64 overflow-y-auto">
+            <div class="flex items-center justify-between py-3 border-b border-border/50">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
+                  <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="font-medium">Minted</p>
+                  <p class="text-sm text-muted-foreground">6 months ago</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <p class="text-sm text-muted-foreground font-mono">0xCreato...r001</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between py-3 ">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-success/20 flex items-center justify-center">
+                  <svg class="w-5 h-5 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="font-medium">Sale</p>
+                  <p class="text-sm text-muted-foreground">2 hours ago</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <p class="font-bold">2.1 ETH</p>
+                <p class="text-sm text-muted-foreground font-mono">0x123456...cdef</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

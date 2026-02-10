@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collection List View</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: 'hsl(222, 47%, 6%)',
+            foreground: 'hsl(210, 40%, 98%)',
+            card: 'hsl(222, 47%, 9%)',
+            primary: 'hsl(199, 89%, 48%)',
+            muted: 'hsl(222, 30%, 18%)',
+            'muted-foreground': 'hsl(215, 20%, 55%)',
+            border: 'hsl(222, 30%, 18%)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .glass-card {
+      background: linear-gradient(145deg, hsl(222, 47%, 11%) 0%, hsl(222, 47%, 8%) 100%);
+      backdrop-filter: blur(12px);
+    }
+  </style>
+</head>
+<body class="bg-background text-foreground min-h-screen">
+  <main class="container mx-auto px-6 py-8">
+    <div class="glass-card rounded-xl border border-border/50 overflow-hidden">
+      <table class="w-full">
+        <thead>
+          <tr class="border-b border-border/50">
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">Collection</th>
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">NFTs</th>
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">Blockchains</th>
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">Min Price (ETH)</th>
+            <th class="text-left px-4 py-3 text-muted-foreground font-medium">Max Price (ETH)</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for col in collections %}
+          <tr class="border-b border-border/50 hover:bg-muted/30 transition-colors">
+            <td class="px-4 py-4 font-medium">{{ col.name }}</td>
+            <td class="px-4 py-4 text-muted-foreground">{{ col.nft_count }}</td>
+            <td class="px-4 py-4 text-muted-foreground">
+              {% if col.blockchains %}
+              {{ col.blockchains | join(', ') }}
+              {% else %}
+              —
+              {% endif %}
+            </td>
+            <td class="px-4 py-4">
+              {% if col.min_price_eth is not none %}
+              {{ col.min_price_eth }} ETH
+              {% else %}
+              —
+              {% endif %}
+            </td>
+            <td class="px-4 py-4">
+              {% if col.max_price_eth is not none %}
+              {{ col.max_price_eth }} ETH
+              {% else %}
+              —
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% if not collections %}
+    <p class="text-muted-foreground text-center py-8">No collections found.</p>
+    {% endif %}
+  </main>
+</body>
+</html>

@@ -1,0 +1,3519 @@
+[
+  {
+    "id": "nft-001",
+    "tokenId": 1,
+    "name": "Meta Legends #001",
+    "collection": "Meta Legends",
+    "description": "A unique meta legends NFT with distinctive traits and rarity rank 473.",
+    "image": "https://picsum.photos/seed/nft-001/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-001/300/300",
+    "creator": {
+      "address": "0xCreator001",
+      "username": "cyberstudio",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC1",
+      "username": "web3Warrior"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0xEEF6B9BFF0",
+    "mintDate": "2026-01-18T00:51:49Z",
+    "price": {
+      "eth": 3.29,
+      "usd": 7798
+    },
+    "lastSale": null,
+    "likes": 289,
+    "views": 3245,
+    "status": "not_for_sale",
+    "rarityRank": 473,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Code Matrix",
+        "rarity": "16%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Hologram",
+        "rarity": "6%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Neon Crown",
+        "rarity": "8%"
+      }
+    ],
+    "stats": {
+      "power": 82,
+      "speed": 95,
+      "intelligence": 98
+    },
+    "utility": [
+      "Future airdrops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator001",
+        "date": "2026-01-18T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-002",
+    "tokenId": 2,
+    "name": "Digital Warriors #002",
+    "collection": "Digital Warriors",
+    "description": "A unique digital warriors NFT with distinctive traits and rarity rank 581.",
+    "image": "https://picsum.photos/seed/nft-002/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-002/300/300",
+    "creator": {
+      "address": "0xCreator002",
+      "username": "nftlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerA2",
+      "username": "blockchainBoss"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0xC6B009C0E4",
+    "mintDate": "2025-12-22T00:51:49Z",
+    "price": {
+      "eth": 2.94,
+      "usd": 8307
+    },
+    "lastSale": null,
+    "likes": 307,
+    "views": 1434,
+    "status": "listed",
+    "rarityRank": 581,
+    "attributes": [
+      {
+        "trait_type": "Eyes",
+        "value": "Hologram",
+        "rarity": "4%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Neon Crown",
+        "rarity": "14%"
+      }
+    ],
+    "stats": {
+      "power": 53,
+      "speed": 93,
+      "intelligence": 95
+    },
+    "utility": [
+      "Exclusive merch drops",
+      "Access to DAO",
+      "Future airdrops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator002",
+        "date": "2025-12-22T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-003",
+    "tokenId": 3,
+    "name": "Blockchain Beasts #003",
+    "collection": "Blockchain Beasts",
+    "description": "A unique blockchain beasts NFT with distinctive traits and rarity rank 666.",
+    "image": "https://picsum.photos/seed/nft-003/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-003/300/300",
+    "creator": {
+      "address": "0xCreator003",
+      "username": "cryptocreations",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerB3",
+      "username": "cryptoKing"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0x5B5B10BDCC",
+    "mintDate": "2026-01-05T00:51:49Z",
+    "price": {
+      "eth": 3.04,
+      "usd": 9477
+    },
+    "lastSale": {
+      "eth": 2.45,
+      "date": "2026-01-24T00:51:49Z"
+    },
+    "likes": 115,
+    "views": 3072,
+    "status": "listed",
+    "rarityRank": 666,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Digital Rain",
+        "rarity": "20%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Electric Blue",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Hologram",
+        "rarity": "9%"
+      }
+    ],
+    "stats": {
+      "power": 79,
+      "speed": 55,
+      "intelligence": 59
+    },
+    "utility": [
+      "Access to DAO"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator003",
+        "date": "2026-01-05T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator003",
+        "to": "0xOwnerA3",
+        "date": "2026-01-24T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-004",
+    "tokenId": 4,
+    "name": "Digital Warriors #004",
+    "collection": "Digital Warriors",
+    "description": "A unique digital warriors NFT with distinctive traits and rarity rank 755.",
+    "image": "https://picsum.photos/seed/nft-004/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-004/300/300",
+    "creator": {
+      "address": "0xCreator004",
+      "username": "metaverse",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerD4",
+      "username": "nftCollector"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0x2000E806CE",
+    "mintDate": "2025-11-17T00:51:49Z",
+    "price": {
+      "eth": 1.46,
+      "usd": 4018
+    },
+    "lastSale": {
+      "eth": 1.27,
+      "date": "2025-11-17T00:51:49Z"
+    },
+    "likes": 109,
+    "views": 8454,
+    "status": "not_for_sale",
+    "rarityRank": 755,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cyber Space",
+        "rarity": "18%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Cyan",
+        "rarity": "4%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Digital Sword",
+        "rarity": "14%"
+      }
+    ],
+    "stats": {
+      "power": 96,
+      "speed": 57,
+      "intelligence": 72
+    },
+    "utility": [
+      "Staking rewards",
+      "Game access"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator004",
+        "date": "2025-11-17T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator004",
+        "to": "0xOwnerC4",
+        "date": "2025-11-17T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-005",
+    "tokenId": 5,
+    "name": "Digital Warriors #005",
+    "collection": "Digital Warriors",
+    "description": "A unique digital warriors NFT with distinctive traits and rarity rank 117.",
+    "image": "https://picsum.photos/seed/nft-005/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-005/300/300",
+    "creator": {
+      "address": "0xCreator005",
+      "username": "neonlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC5",
+      "username": "nftMaster"
+    },
+    "blockchain": "BNB Chain",
+    "contractAddress": "0x251CAC3473",
+    "mintDate": "2026-01-21T00:51:49Z",
+    "price": {
+      "eth": 4.83,
+      "usd": 10871
+    },
+    "lastSale": null,
+    "likes": 194,
+    "views": 7153,
+    "status": "sold",
+    "rarityRank": 117,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Electric Blue",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Glowing",
+        "rarity": "9%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Neon Hoodie",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Neon Crown",
+        "rarity": "6%"
+      }
+    ],
+    "stats": {
+      "power": 69,
+      "speed": 99,
+      "intelligence": 50
+    },
+    "utility": [
+      "Future airdrops",
+      "Exclusive merch drops",
+      "VIP events"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator005",
+        "date": "2026-01-21T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-006",
+    "tokenId": 6,
+    "name": "Meta Legends #006",
+    "collection": "Meta Legends",
+    "description": "A unique meta legends NFT with distinctive traits and rarity rank 319.",
+    "image": "https://picsum.photos/seed/nft-006/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-006/300/300",
+    "creator": {
+      "address": "0xCreator001",
+      "username": "nftlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerB6",
+      "username": "web3Warrior"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0xA20E475BB9",
+    "mintDate": "2025-12-27T00:51:49Z",
+    "price": {
+      "eth": 0.16,
+      "usd": 409
+    },
+    "lastSale": {
+      "eth": 0.14,
+      "date": "2026-02-02T00:51:49Z"
+    },
+    "likes": 439,
+    "views": 9620,
+    "status": "auction",
+    "rarityRank": 319,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon City",
+        "rarity": "25%"
+      }
+    ],
+    "stats": {
+      "power": 51,
+      "speed": 65,
+      "intelligence": 51
+    },
+    "utility": [
+      "Exclusive merch drops",
+      "Staking rewards"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator001",
+        "date": "2025-12-27T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator001",
+        "to": "0xOwnerA6",
+        "date": "2026-02-02T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-007",
+    "tokenId": 7,
+    "name": "Blockchain Beasts #007",
+    "collection": "Blockchain Beasts",
+    "description": "A unique blockchain beasts NFT with distinctive traits and rarity rank 251.",
+    "image": "https://picsum.photos/seed/nft-007/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-007/300/300",
+    "creator": {
+      "address": "0xCreator002",
+      "username": "metaverse",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerA7",
+      "username": "web3Warrior"
+    },
+    "blockchain": "Ethereum",
+    "contractAddress": "0x96CEAFC9DD",
+    "mintDate": "2025-09-12T00:51:49Z",
+    "price": {
+      "eth": 4.96,
+      "usd": 16317
+    },
+    "lastSale": null,
+    "likes": 342,
+    "views": 8208,
+    "status": "not_for_sale",
+    "rarityRank": 251,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Yellow",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Laser Red",
+        "rarity": "9%"
+      }
+    ],
+    "stats": {
+      "power": 68,
+      "speed": 92,
+      "intelligence": 98
+    },
+    "utility": [
+      "DAO voting rights",
+      "Future airdrops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator002",
+        "date": "2025-09-12T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-008",
+    "tokenId": 8,
+    "name": "Crypto Kings #008",
+    "collection": "Crypto Kings",
+    "description": "A unique crypto kings NFT with distinctive traits and rarity rank 415.",
+    "image": "https://picsum.photos/seed/nft-008/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-008/300/300",
+    "creator": {
+      "address": "0xCreator003",
+      "username": "cryptocreations",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC8",
+      "username": "nftCollector"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0xCCB7E9FAEE",
+    "mintDate": "2025-10-28T00:51:49Z",
+    "price": {
+      "eth": 5.0,
+      "usd": 11558
+    },
+    "lastSale": {
+      "eth": 4.94,
+      "date": "2025-10-28T00:51:49Z"
+    },
+    "likes": 89,
+    "views": 9706,
+    "status": "auction",
+    "rarityRank": 415,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Matrix",
+        "rarity": "7%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Orange",
+        "rarity": "5%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Digital Cloak",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Neon Crown",
+        "rarity": "11%"
+      }
+    ],
+    "stats": {
+      "power": 75,
+      "speed": 64,
+      "intelligence": 66
+    },
+    "utility": [
+      "Access to DAO"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator003",
+        "date": "2025-10-28T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator003",
+        "to": "0xOwnerC8",
+        "date": "2025-10-28T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-009",
+    "tokenId": 9,
+    "name": "Meta Legends #009",
+    "collection": "Meta Legends",
+    "description": "A unique meta legends NFT with distinctive traits and rarity rank 636.",
+    "image": "https://picsum.photos/seed/nft-009/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-009/300/300",
+    "creator": {
+      "address": "0xCreator004",
+      "username": "metaverse",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerA9",
+      "username": "cryptoWhale"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0x96E3FC142B",
+    "mintDate": "2025-12-30T00:51:49Z",
+    "price": {
+      "eth": 1.64,
+      "usd": 5369
+    },
+    "lastSale": null,
+    "likes": 207,
+    "views": 4746,
+    "status": "sold",
+    "rarityRank": 636,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Orange",
+        "rarity": "10%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Digital",
+        "rarity": "7%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cyber Helmet",
+        "rarity": "7%"
+      }
+    ],
+    "stats": {
+      "power": 72,
+      "speed": 90,
+      "intelligence": 70
+    },
+    "utility": [
+      "Access to DAO",
+      "VIP events",
+      "Exclusive merch drops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator004",
+        "date": "2025-12-30T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-010",
+    "tokenId": 10,
+    "name": "Blockchain Beasts #010",
+    "collection": "Blockchain Beasts",
+    "description": "A unique blockchain beasts NFT with distinctive traits and rarity rank 773.",
+    "image": "https://picsum.photos/seed/nft-010/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-010/300/300",
+    "creator": {
+      "address": "0xCreator005",
+      "username": "nftlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC10",
+      "username": "web3Warrior"
+    },
+    "blockchain": "BNB Chain",
+    "contractAddress": "0x03C9809F0A",
+    "mintDate": "2026-02-05T00:51:49Z",
+    "price": {
+      "eth": 4.2,
+      "usd": 9979
+    },
+    "lastSale": null,
+    "likes": 192,
+    "views": 1337,
+    "status": "sold",
+    "rarityRank": 773,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Void",
+        "rarity": "10%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Neon Green",
+        "rarity": "10%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Glowing",
+        "rarity": "5%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Digital Cloak",
+        "rarity": "6%"
+      }
+    ],
+    "stats": {
+      "power": 98,
+      "speed": 85,
+      "intelligence": 57
+    },
+    "utility": [
+      "Future airdrops",
+      "Access to DAO"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator005",
+        "date": "2026-02-05T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-011",
+    "tokenId": 11,
+    "name": "Meta Legends #011",
+    "collection": "Meta Legends",
+    "description": "A unique meta legends NFT with distinctive traits and rarity rank 821.",
+    "image": "https://picsum.photos/seed/nft-011/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-011/300/300",
+    "creator": {
+      "address": "0xCreator001",
+      "username": "nftlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerD11",
+      "username": "metaverseGuru"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0x755783A678",
+    "mintDate": "2025-11-20T00:51:49Z",
+    "price": {
+      "eth": 0.94,
+      "usd": 2914
+    },
+    "lastSale": {
+      "eth": 0.88,
+      "date": "2026-02-03T00:51:49Z"
+    },
+    "likes": 468,
+    "views": 1382,
+    "status": "auction",
+    "rarityRank": 821,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Matrix",
+        "rarity": "20%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Neon Green",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Glitch",
+        "rarity": "4%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Hologram Armor",
+        "rarity": "9%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Neon Crown",
+        "rarity": "9%"
+      }
+    ],
+    "stats": {
+      "power": 55,
+      "speed": 76,
+      "intelligence": 96
+    },
+    "utility": [
+      "Access to DAO"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator001",
+        "date": "2025-11-20T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator001",
+        "to": "0xOwnerA11",
+        "date": "2026-02-03T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-012",
+    "tokenId": 12,
+    "name": "Digital Warriors #012",
+    "collection": "Digital Warriors",
+    "description": "A unique digital warriors NFT with distinctive traits and rarity rank 201.",
+    "image": "https://picsum.photos/seed/nft-012/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-012/300/300",
+    "creator": {
+      "address": "0xCreator002",
+      "username": "digitalart",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerB12",
+      "username": "blockchainBoss"
+    },
+    "blockchain": "BNB Chain",
+    "contractAddress": "0x8C3683CD00",
+    "mintDate": "2025-12-06T00:51:49Z",
+    "price": {
+      "eth": 3.9,
+      "usd": 12495
+    },
+    "lastSale": {
+      "eth": 3.83,
+      "date": "2026-01-15T00:51:49Z"
+    },
+    "likes": 491,
+    "views": 8790,
+    "status": "listed",
+    "rarityRank": 201,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Grid",
+        "rarity": "12%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Glowing",
+        "rarity": "10%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Cyber Jacket",
+        "rarity": "18%"
+      }
+    ],
+    "stats": {
+      "power": 52,
+      "speed": 72,
+      "intelligence": 84
+    },
+    "utility": [
+      "Staking rewards",
+      "VIP events"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator002",
+        "date": "2025-12-06T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator002",
+        "to": "0xOwnerD12",
+        "date": "2026-01-15T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-013",
+    "tokenId": 13,
+    "name": "Pixel Heroes #013",
+    "collection": "Pixel Heroes",
+    "description": "A unique pixel heroes NFT with distinctive traits and rarity rank 549.",
+    "image": "https://picsum.photos/seed/nft-013/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-013/300/300",
+    "creator": {
+      "address": "0xCreator003",
+      "username": "cryptocreations",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerB13",
+      "username": "nftCollector"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0x2FAA92B6D6",
+    "mintDate": "2025-11-09T00:51:49Z",
+    "price": {
+      "eth": 2.17,
+      "usd": 4695
+    },
+    "lastSale": null,
+    "likes": 483,
+    "views": 1840,
+    "status": "sold",
+    "rarityRank": 549,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cyber Space",
+        "rarity": "16%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyborg",
+        "rarity": "5%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Neon Suit",
+        "rarity": "20%"
+      }
+    ],
+    "stats": {
+      "power": 92,
+      "speed": 57,
+      "intelligence": 59
+    },
+    "utility": [
+      "DAO voting rights"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator003",
+        "date": "2025-11-09T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-014",
+    "tokenId": 14,
+    "name": "Pixel Heroes #014",
+    "collection": "Pixel Heroes",
+    "description": "A unique pixel heroes NFT with distinctive traits and rarity rank 718.",
+    "image": "https://picsum.photos/seed/nft-014/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-014/300/300",
+    "creator": {
+      "address": "0xCreator004",
+      "username": "cyberstudio",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerA14",
+      "username": "cryptoKing"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0x2B2D6B8751",
+    "mintDate": "2025-12-29T00:51:49Z",
+    "price": {
+      "eth": 4.69,
+      "usd": 15585
+    },
+    "lastSale": {
+      "eth": 4.75,
+      "date": "2026-01-19T00:51:49Z"
+    },
+    "likes": 106,
+    "views": 4133,
+    "status": "sold",
+    "rarityRank": 718,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Code Matrix",
+        "rarity": "19%"
+      }
+    ],
+    "stats": {
+      "power": 52,
+      "speed": 81,
+      "intelligence": 92
+    },
+    "utility": [
+      "Staking rewards",
+      "Exclusive merch drops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator004",
+        "date": "2025-12-29T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator004",
+        "to": "0xOwnerC14",
+        "date": "2026-01-19T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-015",
+    "tokenId": 15,
+    "name": "Neon Apes #015",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 270.",
+    "image": "https://picsum.photos/seed/nft-015/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-015/300/300",
+    "creator": {
+      "address": "0xCreator005",
+      "username": "metaverse",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerB15",
+      "username": "cryptoWhale"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0x92C78E693C",
+    "mintDate": "2025-10-01T00:51:49Z",
+    "price": {
+      "eth": 1.71,
+      "usd": 4740
+    },
+    "lastSale": {
+      "eth": 1.48,
+      "date": "2026-01-08T00:51:49Z"
+    },
+    "likes": 197,
+    "views": 5002,
+    "status": "sold",
+    "rarityRank": 270,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon City",
+        "rarity": "17%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Purple",
+        "rarity": "7%"
+      }
+    ],
+    "stats": {
+      "power": 60,
+      "speed": 89,
+      "intelligence": 84
+    },
+    "utility": [
+      "Access to DAO",
+      "Staking rewards"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator005",
+        "date": "2025-10-01T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator005",
+        "to": "0xOwnerC15",
+        "date": "2026-01-08T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-016",
+    "tokenId": 16,
+    "name": "Neon Apes #016",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 905.",
+    "image": "https://picsum.photos/seed/nft-016/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-016/300/300",
+    "creator": {
+      "address": "0xCreator001",
+      "username": "cyberstudio",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerD16",
+      "username": "web3Warrior"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0x13975768BA",
+    "mintDate": "2025-08-20T00:51:49Z",
+    "price": {
+      "eth": 4.28,
+      "usd": 13616
+    },
+    "lastSale": null,
+    "likes": 297,
+    "views": 3264,
+    "status": "sold",
+    "rarityRank": 905,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Purple",
+        "rarity": "15%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyborg",
+        "rarity": "9%"
+      }
+    ],
+    "stats": {
+      "power": 53,
+      "speed": 56,
+      "intelligence": 81
+    },
+    "utility": [
+      "Staking rewards"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator001",
+        "date": "2025-08-20T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-017",
+    "tokenId": 17,
+    "name": "Crypto Kings #017",
+    "collection": "Crypto Kings",
+    "description": "A unique crypto kings NFT with distinctive traits and rarity rank 571.",
+    "image": "https://picsum.photos/seed/nft-017/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-017/300/300",
+    "creator": {
+      "address": "0xCreator002",
+      "username": "neonlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC17",
+      "username": "blockchainBoss"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0x73C8A705D5",
+    "mintDate": "2026-01-04T00:51:49Z",
+    "price": {
+      "eth": 2.57,
+      "usd": 5238
+    },
+    "lastSale": {
+      "eth": 1.93,
+      "date": "2026-01-30T00:51:49Z"
+    },
+    "likes": 128,
+    "views": 5567,
+    "status": "sold",
+    "rarityRank": 571,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Digital Rain",
+        "rarity": "13%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Red",
+        "rarity": "4%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Laser Red",
+        "rarity": "2%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Digital Sword",
+        "rarity": "15%"
+      }
+    ],
+    "stats": {
+      "power": 74,
+      "speed": 90,
+      "intelligence": 88
+    },
+    "utility": [
+      "Staking rewards",
+      "Future airdrops",
+      "VIP events"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator002",
+        "date": "2026-01-04T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator002",
+        "to": "0xOwnerC17",
+        "date": "2026-01-30T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-018",
+    "tokenId": 18,
+    "name": "Pixel Heroes #018",
+    "collection": "Pixel Heroes",
+    "description": "A unique pixel heroes NFT with distinctive traits and rarity rank 518.",
+    "image": "https://picsum.photos/seed/nft-018/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-018/300/300",
+    "creator": {
+      "address": "0xCreator003",
+      "username": "nftlabs",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerA18",
+      "username": "cryptoKing"
+    },
+    "blockchain": "Ethereum",
+    "contractAddress": "0xEE300C48F8",
+    "mintDate": "2025-09-08T00:51:49Z",
+    "price": {
+      "eth": 4.2,
+      "usd": 14545
+    },
+    "lastSale": null,
+    "likes": 334,
+    "views": 7418,
+    "status": "auction",
+    "rarityRank": 518,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hologram",
+        "rarity": "19%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Red",
+        "rarity": "14%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Glowing",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Tech Vest",
+        "rarity": "19%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "VR Glasses",
+        "rarity": "9%"
+      }
+    ],
+    "stats": {
+      "power": 81,
+      "speed": 89,
+      "intelligence": 95
+    },
+    "utility": [
+      "Metaverse avatar",
+      "DAO voting rights",
+      "Access to DAO"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator003",
+        "date": "2025-09-08T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-019",
+    "tokenId": 19,
+    "name": "Crypto Kings #019",
+    "collection": "Crypto Kings",
+    "description": "A unique crypto kings NFT with distinctive traits and rarity rank 746.",
+    "image": "https://picsum.photos/seed/nft-019/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-019/300/300",
+    "creator": {
+      "address": "0xCreator004",
+      "username": "neonlabs",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerA19",
+      "username": "metaverseGuru"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0xAB7520738C",
+    "mintDate": "2026-01-02T00:51:49Z",
+    "price": {
+      "eth": 3.28,
+      "usd": 9839
+    },
+    "lastSale": {
+      "eth": 3.37,
+      "date": "2026-01-21T00:51:49Z"
+    },
+    "likes": 424,
+    "views": 7942,
+    "status": "auction",
+    "rarityRank": 746,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Digital Rain",
+        "rarity": "22%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Pink",
+        "rarity": "13%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Glowing",
+        "rarity": "5%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Hologram Armor",
+        "rarity": "9%"
+      }
+    ],
+    "stats": {
+      "power": 99,
+      "speed": 99,
+      "intelligence": 95
+    },
+    "utility": [
+      "Access to DAO",
+      "VIP events"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator004",
+        "date": "2026-01-02T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator004",
+        "to": "0xOwnerC19",
+        "date": "2026-01-21T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-020",
+    "tokenId": 20,
+    "name": "NFT Ninjas #020",
+    "collection": "NFT Ninjas",
+    "description": "A unique nft ninjas NFT with distinctive traits and rarity rank 429.",
+    "image": "https://picsum.photos/seed/nft-020/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-020/300/300",
+    "creator": {
+      "address": "0xCreator005",
+      "username": "neonlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC20",
+      "username": "nftMaster"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0xDF2308EDD2",
+    "mintDate": "2025-11-13T00:51:49Z",
+    "price": {
+      "eth": 0.89,
+      "usd": 2857
+    },
+    "lastSale": null,
+    "likes": 211,
+    "views": 9924,
+    "status": "not_for_sale",
+    "rarityRank": 429,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Orange",
+        "rarity": "4%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Digital",
+        "rarity": "10%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Neon Hoodie",
+        "rarity": "18%"
+      }
+    ],
+    "stats": {
+      "power": 52,
+      "speed": 52,
+      "intelligence": 78
+    },
+    "utility": [
+      "Access to DAO",
+      "Metaverse avatar"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator005",
+        "date": "2025-11-13T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-021",
+    "tokenId": 21,
+    "name": "Blockchain Beasts #021",
+    "collection": "Blockchain Beasts",
+    "description": "A unique blockchain beasts NFT with distinctive traits and rarity rank 199.",
+    "image": "https://picsum.photos/seed/nft-021/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-021/300/300",
+    "creator": {
+      "address": "0xCreator001",
+      "username": "neonlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerB21",
+      "username": "cryptoWhale"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0xAA884C1CFA",
+    "mintDate": "2025-09-14T00:51:49Z",
+    "price": {
+      "eth": 3.2,
+      "usd": 7688
+    },
+    "lastSale": {
+      "eth": 2.44,
+      "date": "2025-10-20T00:51:49Z"
+    },
+    "likes": 56,
+    "views": 6139,
+    "status": "auction",
+    "rarityRank": 199,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Red",
+        "rarity": "7%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyborg",
+        "rarity": "9%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Tech Vest",
+        "rarity": "6%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cyber Helmet",
+        "rarity": "13%"
+      }
+    ],
+    "stats": {
+      "power": 66,
+      "speed": 99,
+      "intelligence": 84
+    },
+    "utility": [
+      "Game access"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator001",
+        "date": "2025-09-14T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator001",
+        "to": "0xOwnerD21",
+        "date": "2025-10-20T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-022",
+    "tokenId": 22,
+    "name": "Crypto Kings #022",
+    "collection": "Crypto Kings",
+    "description": "A unique crypto kings NFT with distinctive traits and rarity rank 257.",
+    "image": "https://picsum.photos/seed/nft-022/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-022/300/300",
+    "creator": {
+      "address": "0xCreator002",
+      "username": "cyberstudio",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerC22",
+      "username": "cryptoWhale"
+    },
+    "blockchain": "BNB Chain",
+    "contractAddress": "0x7984333866",
+    "mintDate": "2025-12-21T00:51:49Z",
+    "price": {
+      "eth": 2.42,
+      "usd": 5233
+    },
+    "lastSale": {
+      "eth": 2.46,
+      "date": "2026-02-03T00:51:49Z"
+    },
+    "likes": 367,
+    "views": 2924,
+    "status": "listed",
+    "rarityRank": 257,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cyber Space",
+        "rarity": "24%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Cyan",
+        "rarity": "11%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Neon Hoodie",
+        "rarity": "16%"
+      }
+    ],
+    "stats": {
+      "power": 58,
+      "speed": 85,
+      "intelligence": 60
+    },
+    "utility": [
+      "DAO voting rights",
+      "Access to DAO",
+      "Metaverse avatar"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator002",
+        "date": "2025-12-21T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator002",
+        "to": "0xOwnerC22",
+        "date": "2026-02-03T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-023",
+    "tokenId": 23,
+    "name": "Neon Apes #023",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 315.",
+    "image": "https://picsum.photos/seed/nft-023/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-023/300/300",
+    "creator": {
+      "address": "0xCreator003",
+      "username": "metaverse",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC23",
+      "username": "cryptoKing"
+    },
+    "blockchain": "Ethereum",
+    "contractAddress": "0x5CE6BE0F93",
+    "mintDate": "2026-01-16T00:51:49Z",
+    "price": {
+      "eth": 0.98,
+      "usd": 2654
+    },
+    "lastSale": null,
+    "likes": 298,
+    "views": 1228,
+    "status": "auction",
+    "rarityRank": 315,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Grid",
+        "rarity": "7%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Yellow",
+        "rarity": "12%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Matrix",
+        "rarity": "8%"
+      }
+    ],
+    "stats": {
+      "power": 91,
+      "speed": 81,
+      "intelligence": 77
+    },
+    "utility": [
+      "DAO voting rights",
+      "VIP events",
+      "Staking rewards"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator003",
+        "date": "2026-01-16T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-024",
+    "tokenId": 24,
+    "name": "Meta Legends #024",
+    "collection": "Meta Legends",
+    "description": "A unique meta legends NFT with distinctive traits and rarity rank 849.",
+    "image": "https://picsum.photos/seed/nft-024/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-024/300/300",
+    "creator": {
+      "address": "0xCreator004",
+      "username": "metaverse",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerB24",
+      "username": "nftCollector"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0x290FE9A15D",
+    "mintDate": "2026-01-10T00:51:49Z",
+    "price": {
+      "eth": 3.79,
+      "usd": 12134
+    },
+    "lastSale": {
+      "eth": 3.57,
+      "date": "2026-01-30T00:51:49Z"
+    },
+    "likes": 199,
+    "views": 6438,
+    "status": "sold",
+    "rarityRank": 849,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Digital Rain",
+        "rarity": "15%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Cyan",
+        "rarity": "9%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Laser Red",
+        "rarity": "6%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Digital Cloak",
+        "rarity": "20%"
+      }
+    ],
+    "stats": {
+      "power": 65,
+      "speed": 83,
+      "intelligence": 69
+    },
+    "utility": [
+      "Staking rewards",
+      "Access to DAO",
+      "VIP events"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator004",
+        "date": "2026-01-10T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator004",
+        "to": "0xOwnerC24",
+        "date": "2026-01-30T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-025",
+    "tokenId": 25,
+    "name": "NFT Ninjas #025",
+    "collection": "NFT Ninjas",
+    "description": "A unique nft ninjas NFT with distinctive traits and rarity rank 102.",
+    "image": "https://picsum.photos/seed/nft-025/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-025/300/300",
+    "creator": {
+      "address": "0xCreator005",
+      "username": "digitalart",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerB25",
+      "username": "cryptoKing"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0x28F3562A8E",
+    "mintDate": "2025-08-10T00:51:49Z",
+    "price": {
+      "eth": 2.82,
+      "usd": 7415
+    },
+    "lastSale": {
+      "eth": 2.57,
+      "date": "2026-01-05T00:51:49Z"
+    },
+    "likes": 99,
+    "views": 9389,
+    "status": "not_for_sale",
+    "rarityRank": 102,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Code Matrix",
+        "rarity": "9%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Hologram",
+        "rarity": "10%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Hologram Armor",
+        "rarity": "13%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Hologram Wings",
+        "rarity": "14%"
+      }
+    ],
+    "stats": {
+      "power": 98,
+      "speed": 51,
+      "intelligence": 72
+    },
+    "utility": [
+      "DAO voting rights",
+      "Metaverse avatar",
+      "Exclusive merch drops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator005",
+        "date": "2025-08-10T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator005",
+        "to": "0xOwnerD25",
+        "date": "2026-01-05T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-026",
+    "tokenId": 26,
+    "name": "Meta Legends #026",
+    "collection": "Meta Legends",
+    "description": "A unique meta legends NFT with distinctive traits and rarity rank 589.",
+    "image": "https://picsum.photos/seed/nft-026/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-026/300/300",
+    "creator": {
+      "address": "0xCreator001",
+      "username": "metaverse",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerB26",
+      "username": "nftCollector"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0x184B300C6D",
+    "mintDate": "2025-12-19T00:51:49Z",
+    "price": {
+      "eth": 1.86,
+      "usd": 4132
+    },
+    "lastSale": {
+      "eth": 1.72,
+      "date": "2025-12-21T00:51:49Z"
+    },
+    "likes": 274,
+    "views": 3103,
+    "status": "auction",
+    "rarityRank": 589,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Code Matrix",
+        "rarity": "12%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Purple",
+        "rarity": "13%"
+      }
+    ],
+    "stats": {
+      "power": 100,
+      "speed": 86,
+      "intelligence": 81
+    },
+    "utility": [
+      "Staking rewards",
+      "Access to DAO",
+      "Future airdrops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator001",
+        "date": "2025-12-19T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator001",
+        "to": "0xOwnerC26",
+        "date": "2025-12-21T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-027",
+    "tokenId": 27,
+    "name": "Blockchain Beasts #027",
+    "collection": "Blockchain Beasts",
+    "description": "A unique blockchain beasts NFT with distinctive traits and rarity rank 501.",
+    "image": "https://picsum.photos/seed/nft-027/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-027/300/300",
+    "creator": {
+      "address": "0xCreator002",
+      "username": "metaverse",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerA27",
+      "username": "nftMaster"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0xEAF5D2D6DA",
+    "mintDate": "2026-01-04T00:51:49Z",
+    "price": {
+      "eth": 2.01,
+      "usd": 4938
+    },
+    "lastSale": {
+      "eth": 1.68,
+      "date": "2026-01-25T00:51:49Z"
+    },
+    "likes": 483,
+    "views": 4278,
+    "status": "auction",
+    "rarityRank": 501,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cyber Space",
+        "rarity": "5%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Orange",
+        "rarity": "12%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Glowing",
+        "rarity": "7%"
+      }
+    ],
+    "stats": {
+      "power": 76,
+      "speed": 50,
+      "intelligence": 83
+    },
+    "utility": [
+      "Exclusive merch drops",
+      "Staking rewards",
+      "Metaverse avatar"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator002",
+        "date": "2026-01-04T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator002",
+        "to": "0xOwnerA27",
+        "date": "2026-01-25T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-028",
+    "tokenId": 28,
+    "name": "Cyber Punks #028",
+    "collection": "Cyber Punks",
+    "description": "A unique cyber punks NFT with distinctive traits and rarity rank 382.",
+    "image": "https://picsum.photos/seed/nft-028/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-028/300/300",
+    "creator": {
+      "address": "0xCreator003",
+      "username": "cyberstudio",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerD28",
+      "username": "ethQueen"
+    },
+    "blockchain": "BNB Chain",
+    "contractAddress": "0xC825F28900",
+    "mintDate": "2025-12-08T00:51:49Z",
+    "price": {
+      "eth": 3.37,
+      "usd": 9871
+    },
+    "lastSale": null,
+    "likes": 68,
+    "views": 3718,
+    "status": "sold",
+    "rarityRank": 382,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Grid",
+        "rarity": "15%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Red",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Neon",
+        "rarity": "3%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Digital Cloak",
+        "rarity": "13%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Neon Crown",
+        "rarity": "11%"
+      }
+    ],
+    "stats": {
+      "power": 61,
+      "speed": 84,
+      "intelligence": 69
+    },
+    "utility": [
+      "Exclusive merch drops",
+      "DAO voting rights",
+      "Metaverse avatar"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator003",
+        "date": "2025-12-08T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-029",
+    "tokenId": 29,
+    "name": "Neon Apes #029",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 274.",
+    "image": "https://picsum.photos/seed/nft-029/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-029/300/300",
+    "creator": {
+      "address": "0xCreator004",
+      "username": "cryptocreations",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerA29",
+      "username": "nftMaster"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0x93D570245F",
+    "mintDate": "2025-10-16T00:51:49Z",
+    "price": {
+      "eth": 1.41,
+      "usd": 4725
+    },
+    "lastSale": {
+      "eth": 1.38,
+      "date": "2025-12-30T00:51:49Z"
+    },
+    "likes": 73,
+    "views": 3969,
+    "status": "auction",
+    "rarityRank": 274,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Orange",
+        "rarity": "10%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Tech Vest",
+        "rarity": "20%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Neon Mask",
+        "rarity": "9%"
+      }
+    ],
+    "stats": {
+      "power": 70,
+      "speed": 66,
+      "intelligence": 97
+    },
+    "utility": [
+      "Staking rewards",
+      "DAO voting rights"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator004",
+        "date": "2025-10-16T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator004",
+        "to": "0xOwnerA29",
+        "date": "2025-12-30T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-030",
+    "tokenId": 30,
+    "name": "Cyber Punks #030",
+    "collection": "Cyber Punks",
+    "description": "A unique cyber punks NFT with distinctive traits and rarity rank 171.",
+    "image": "https://picsum.photos/seed/nft-030/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-030/300/300",
+    "creator": {
+      "address": "0xCreator005",
+      "username": "cryptocreations",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC30",
+      "username": "metaverseGuru"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0x96D6AA6011",
+    "mintDate": "2025-11-02T00:51:49Z",
+    "price": {
+      "eth": 1.11,
+      "usd": 3131
+    },
+    "lastSale": {
+      "eth": 0.93,
+      "date": "2026-01-31T00:51:49Z"
+    },
+    "likes": 234,
+    "views": 2874,
+    "status": "not_for_sale",
+    "rarityRank": 171,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Pink",
+        "rarity": "10%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Laser Red",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "VR Glasses",
+        "rarity": "14%"
+      }
+    ],
+    "stats": {
+      "power": 56,
+      "speed": 58,
+      "intelligence": 85
+    },
+    "utility": [
+      "Exclusive merch drops",
+      "DAO voting rights"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator005",
+        "date": "2025-11-02T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator005",
+        "to": "0xOwnerC30",
+        "date": "2026-01-31T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-031",
+    "tokenId": 31,
+    "name": "NFT Ninjas #031",
+    "collection": "NFT Ninjas",
+    "description": "A unique nft ninjas NFT with distinctive traits and rarity rank 720.",
+    "image": "https://picsum.photos/seed/nft-031/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-031/300/300",
+    "creator": {
+      "address": "0xCreator001",
+      "username": "neonlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC31",
+      "username": "ethQueen"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0x8E5D69A43E",
+    "mintDate": "2025-08-28T00:51:49Z",
+    "price": {
+      "eth": 2.61,
+      "usd": 9112
+    },
+    "lastSale": {
+      "eth": 2.24,
+      "date": "2026-01-25T00:51:49Z"
+    },
+    "likes": 168,
+    "views": 3252,
+    "status": "sold",
+    "rarityRank": 720,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Matrix",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Yellow",
+        "rarity": "13%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Neon Mask",
+        "rarity": "10%"
+      }
+    ],
+    "stats": {
+      "power": 69,
+      "speed": 61,
+      "intelligence": 91
+    },
+    "utility": [
+      "Metaverse avatar"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator001",
+        "date": "2025-08-28T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator001",
+        "to": "0xOwnerD31",
+        "date": "2026-01-25T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-032",
+    "tokenId": 32,
+    "name": "Meta Legends #032",
+    "collection": "Meta Legends",
+    "description": "A unique meta legends NFT with distinctive traits and rarity rank 332.",
+    "image": "https://picsum.photos/seed/nft-032/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-032/300/300",
+    "creator": {
+      "address": "0xCreator002",
+      "username": "neonlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerB32",
+      "username": "blockchainBoss"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0x5D8B5BA459",
+    "mintDate": "2025-08-19T00:51:49Z",
+    "price": {
+      "eth": 2.56,
+      "usd": 7719
+    },
+    "lastSale": {
+      "eth": 1.84,
+      "date": "2025-09-14T00:51:49Z"
+    },
+    "likes": 481,
+    "views": 5624,
+    "status": "sold",
+    "rarityRank": 332,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Matrix",
+        "rarity": "22%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Electric Blue",
+        "rarity": "15%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Matrix",
+        "rarity": "3%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Hologram Wings",
+        "rarity": "7%"
+      }
+    ],
+    "stats": {
+      "power": 70,
+      "speed": 91,
+      "intelligence": 73
+    },
+    "utility": [
+      "DAO voting rights",
+      "Access to DAO",
+      "Exclusive merch drops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator002",
+        "date": "2025-08-19T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator002",
+        "to": "0xOwnerD32",
+        "date": "2025-09-14T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-033",
+    "tokenId": 33,
+    "name": "Pixel Heroes #033",
+    "collection": "Pixel Heroes",
+    "description": "A unique pixel heroes NFT with distinctive traits and rarity rank 402.",
+    "image": "https://picsum.photos/seed/nft-033/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-033/300/300",
+    "creator": {
+      "address": "0xCreator003",
+      "username": "cryptocreations",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerA33",
+      "username": "ethQueen"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0x3998106F38",
+    "mintDate": "2025-10-30T00:51:49Z",
+    "price": {
+      "eth": 0.23,
+      "usd": 564
+    },
+    "lastSale": {
+      "eth": 0.23,
+      "date": "2025-12-18T00:51:49Z"
+    },
+    "likes": 114,
+    "views": 7474,
+    "status": "listed",
+    "rarityRank": 402,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon City",
+        "rarity": "24%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Orange",
+        "rarity": "12%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "VR Glasses",
+        "rarity": "7%"
+      }
+    ],
+    "stats": {
+      "power": 98,
+      "speed": 68,
+      "intelligence": 63
+    },
+    "utility": [
+      "Exclusive merch drops",
+      "VIP events",
+      "Game access"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator003",
+        "date": "2025-10-30T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator003",
+        "to": "0xOwnerD33",
+        "date": "2025-12-18T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-034",
+    "tokenId": 34,
+    "name": "Meta Legends #034",
+    "collection": "Meta Legends",
+    "description": "A unique meta legends NFT with distinctive traits and rarity rank 299.",
+    "image": "https://picsum.photos/seed/nft-034/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-034/300/300",
+    "creator": {
+      "address": "0xCreator004",
+      "username": "cryptocreations",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC34",
+      "username": "nftCollector"
+    },
+    "blockchain": "Ethereum",
+    "contractAddress": "0xA6561CC3CE",
+    "mintDate": "2025-11-07T00:51:49Z",
+    "price": {
+      "eth": 2.19,
+      "usd": 5596
+    },
+    "lastSale": {
+      "eth": 1.73,
+      "date": "2025-12-02T00:51:49Z"
+    },
+    "likes": 467,
+    "views": 5328,
+    "status": "auction",
+    "rarityRank": 299,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Digital Rain",
+        "rarity": "6%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Orange",
+        "rarity": "3%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Digital",
+        "rarity": "2%"
+      }
+    ],
+    "stats": {
+      "power": 96,
+      "speed": 53,
+      "intelligence": 92
+    },
+    "utility": [
+      "VIP events"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator004",
+        "date": "2025-11-07T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator004",
+        "to": "0xOwnerC34",
+        "date": "2025-12-02T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-035",
+    "tokenId": 35,
+    "name": "Crypto Kings #035",
+    "collection": "Crypto Kings",
+    "description": "A unique crypto kings NFT with distinctive traits and rarity rank 459.",
+    "image": "https://picsum.photos/seed/nft-035/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-035/300/300",
+    "creator": {
+      "address": "0xCreator005",
+      "username": "digitalart",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerA35",
+      "username": "metaverseGuru"
+    },
+    "blockchain": "BNB Chain",
+    "contractAddress": "0xA695546AA8",
+    "mintDate": "2025-09-13T00:51:49Z",
+    "price": {
+      "eth": 2.95,
+      "usd": 10206
+    },
+    "lastSale": {
+      "eth": 2.53,
+      "date": "2026-01-10T00:51:49Z"
+    },
+    "likes": 194,
+    "views": 5235,
+    "status": "auction",
+    "rarityRank": 459,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Pink",
+        "rarity": "3%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Glitch",
+        "rarity": "2%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "VR Glasses",
+        "rarity": "9%"
+      }
+    ],
+    "stats": {
+      "power": 100,
+      "speed": 63,
+      "intelligence": 88
+    },
+    "utility": [
+      "Metaverse avatar",
+      "DAO voting rights",
+      "Exclusive merch drops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator005",
+        "date": "2025-09-13T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator005",
+        "to": "0xOwnerD35",
+        "date": "2026-01-10T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-036",
+    "tokenId": 36,
+    "name": "Cyber Punks #036",
+    "collection": "Cyber Punks",
+    "description": "A unique cyber punks NFT with distinctive traits and rarity rank 991.",
+    "image": "https://picsum.photos/seed/nft-036/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-036/300/300",
+    "creator": {
+      "address": "0xCreator001",
+      "username": "cyberstudio",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC36",
+      "username": "cryptoWhale"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0xCB36B8C2F2",
+    "mintDate": "2025-10-10T00:51:49Z",
+    "price": {
+      "eth": 2.33,
+      "usd": 7902
+    },
+    "lastSale": {
+      "eth": 2.33,
+      "date": "2025-11-21T00:51:49Z"
+    },
+    "likes": 64,
+    "views": 1262,
+    "status": "auction",
+    "rarityRank": 991,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Grid",
+        "rarity": "7%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyborg",
+        "rarity": "2%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Digital Cloak",
+        "rarity": "10%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Hologram Wings",
+        "rarity": "9%"
+      }
+    ],
+    "stats": {
+      "power": 85,
+      "speed": 69,
+      "intelligence": 71
+    },
+    "utility": [
+      "Future airdrops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator001",
+        "date": "2025-10-10T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator001",
+        "to": "0xOwnerC36",
+        "date": "2025-11-21T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-037",
+    "tokenId": 37,
+    "name": "Pixel Heroes #037",
+    "collection": "Pixel Heroes",
+    "description": "A unique pixel heroes NFT with distinctive traits and rarity rank 67.",
+    "image": "https://picsum.photos/seed/nft-037/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-037/300/300",
+    "creator": {
+      "address": "0xCreator002",
+      "username": "digitalart",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerD37",
+      "username": "nftMaster"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0x254EA74DEA",
+    "mintDate": "2025-09-26T00:51:49Z",
+    "price": {
+      "eth": 2.02,
+      "usd": 7068
+    },
+    "lastSale": {
+      "eth": 2.02,
+      "date": "2026-01-04T00:51:49Z"
+    },
+    "likes": 272,
+    "views": 2399,
+    "status": "listed",
+    "rarityRank": 67,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Void",
+        "rarity": "19%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Red",
+        "rarity": "9%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyborg",
+        "rarity": "9%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Neon Hoodie",
+        "rarity": "7%"
+      }
+    ],
+    "stats": {
+      "power": 53,
+      "speed": 65,
+      "intelligence": 80
+    },
+    "utility": [
+      "VIP events",
+      "Game access",
+      "Metaverse avatar"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator002",
+        "date": "2025-09-26T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator002",
+        "to": "0xOwnerD37",
+        "date": "2026-01-04T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-038",
+    "tokenId": 38,
+    "name": "Neon Apes #038",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 229.",
+    "image": "https://picsum.photos/seed/nft-038/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-038/300/300",
+    "creator": {
+      "address": "0xCreator003",
+      "username": "nftlabs",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerD38",
+      "username": "nftMaster"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0xC5DFBBDBFB",
+    "mintDate": "2026-01-20T00:51:49Z",
+    "price": {
+      "eth": 1.48,
+      "usd": 4312
+    },
+    "lastSale": {
+      "eth": 1.61,
+      "date": "2026-02-04T00:51:49Z"
+    },
+    "likes": 440,
+    "views": 7609,
+    "status": "listed",
+    "rarityRank": 229,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon City",
+        "rarity": "12%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Electric Blue",
+        "rarity": "11%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Glowing",
+        "rarity": "5%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "VR Glasses",
+        "rarity": "11%"
+      }
+    ],
+    "stats": {
+      "power": 51,
+      "speed": 93,
+      "intelligence": 57
+    },
+    "utility": [
+      "Future airdrops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator003",
+        "date": "2026-01-20T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator003",
+        "to": "0xOwnerD38",
+        "date": "2026-02-04T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-039",
+    "tokenId": 39,
+    "name": "Pixel Heroes #039",
+    "collection": "Pixel Heroes",
+    "description": "A unique pixel heroes NFT with distinctive traits and rarity rank 850.",
+    "image": "https://picsum.photos/seed/nft-039/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-039/300/300",
+    "creator": {
+      "address": "0xCreator004",
+      "username": "cyberstudio",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerB39",
+      "username": "web3Warrior"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0x717B91D572",
+    "mintDate": "2026-01-27T00:51:49Z",
+    "price": {
+      "eth": 2.67,
+      "usd": 7175
+    },
+    "lastSale": {
+      "eth": 2.76,
+      "date": "2026-01-30T00:51:49Z"
+    },
+    "likes": 135,
+    "views": 6078,
+    "status": "not_for_sale",
+    "rarityRank": 850,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Yellow",
+        "rarity": "3%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Laser Red",
+        "rarity": "7%"
+      }
+    ],
+    "stats": {
+      "power": 94,
+      "speed": 96,
+      "intelligence": 54
+    },
+    "utility": [
+      "Staking rewards",
+      "Future airdrops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator004",
+        "date": "2026-01-27T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator004",
+        "to": "0xOwnerD39",
+        "date": "2026-01-30T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-040",
+    "tokenId": 40,
+    "name": "Neon Apes #040",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 471.",
+    "image": "https://picsum.photos/seed/nft-040/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-040/300/300",
+    "creator": {
+      "address": "0xCreator005",
+      "username": "metaverse",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerD40",
+      "username": "blockchainBoss"
+    },
+    "blockchain": "Ethereum",
+    "contractAddress": "0x8C5EBD1416",
+    "mintDate": "2025-09-30T00:51:49Z",
+    "price": {
+      "eth": 2.09,
+      "usd": 5217
+    },
+    "lastSale": {
+      "eth": 2.12,
+      "date": "2025-11-28T00:51:49Z"
+    },
+    "likes": 214,
+    "views": 8921,
+    "status": "not_for_sale",
+    "rarityRank": 471,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Cyan",
+        "rarity": "13%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Hologram",
+        "rarity": "2%"
+      }
+    ],
+    "stats": {
+      "power": 72,
+      "speed": 77,
+      "intelligence": 76
+    },
+    "utility": [
+      "VIP events",
+      "Staking rewards"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator005",
+        "date": "2025-09-30T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator005",
+        "to": "0xOwnerD40",
+        "date": "2025-11-28T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-041",
+    "tokenId": 41,
+    "name": "Crypto Kings #041",
+    "collection": "Crypto Kings",
+    "description": "A unique crypto kings NFT with distinctive traits and rarity rank 878.",
+    "image": "https://picsum.photos/seed/nft-041/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-041/300/300",
+    "creator": {
+      "address": "0xCreator001",
+      "username": "neonlabs",
+      "verified": false
+    },
+    "owner": {
+      "address": "0xOwnerD41",
+      "username": "nftCollector"
+    },
+    "blockchain": "Solana",
+    "contractAddress": "0xCB5E28106A",
+    "mintDate": "2025-09-10T00:51:49Z",
+    "price": {
+      "eth": 0.27,
+      "usd": 613
+    },
+    "lastSale": {
+      "eth": 0.22,
+      "date": "2025-11-29T00:51:49Z"
+    },
+    "likes": 212,
+    "views": 2321,
+    "status": "auction",
+    "rarityRank": 878,
+    "attributes": [
+      {
+        "trait_type": "Eyes",
+        "value": "Cyborg",
+        "rarity": "7%"
+      }
+    ],
+    "stats": {
+      "power": 89,
+      "speed": 77,
+      "intelligence": 98
+    },
+    "utility": [
+      "Access to DAO"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator001",
+        "date": "2025-09-10T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator001",
+        "to": "0xOwnerA41",
+        "date": "2025-11-29T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-042",
+    "tokenId": 42,
+    "name": "Neon Apes #042",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 531.",
+    "image": "https://picsum.photos/seed/nft-042/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-042/300/300",
+    "creator": {
+      "address": "0xCreator002",
+      "username": "digitalart",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerD42",
+      "username": "metaverseGuru"
+    },
+    "blockchain": "BNB Chain",
+    "contractAddress": "0x5618DA3B0F",
+    "mintDate": "2026-01-21T00:51:49Z",
+    "price": {
+      "eth": 3.42,
+      "usd": 7848
+    },
+    "lastSale": null,
+    "likes": 57,
+    "views": 6520,
+    "status": "listed",
+    "rarityRank": 531,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Digital Rain",
+        "rarity": "5%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Cyan",
+        "rarity": "4%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Neon Suit",
+        "rarity": "5%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Neon Mask",
+        "rarity": "4%"
+      }
+    ],
+    "stats": {
+      "power": 70,
+      "speed": 66,
+      "intelligence": 80
+    },
+    "utility": [
+      "Access to DAO",
+      "DAO voting rights",
+      "VIP events"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator002",
+        "date": "2026-01-21T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-043",
+    "tokenId": 43,
+    "name": "Neon Apes #043",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 348.",
+    "image": "https://picsum.photos/seed/nft-043/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-043/300/300",
+    "creator": {
+      "address": "0xCreator003",
+      "username": "neonlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC43",
+      "username": "nftMaster"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0xAA18A167E6",
+    "mintDate": "2026-01-27T00:51:49Z",
+    "price": {
+      "eth": 1.23,
+      "usd": 3920
+    },
+    "lastSale": null,
+    "likes": 403,
+    "views": 4397,
+    "status": "listed",
+    "rarityRank": 348,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cyber Space",
+        "rarity": "22%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Pink",
+        "rarity": "4%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Matrix",
+        "rarity": "6%"
+      }
+    ],
+    "stats": {
+      "power": 98,
+      "speed": 93,
+      "intelligence": 69
+    },
+    "utility": [
+      "Future airdrops",
+      "Access to DAO",
+      "Metaverse avatar"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator003",
+        "date": "2026-01-27T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-044",
+    "tokenId": 44,
+    "name": "Neon Apes #044",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 678.",
+    "image": "https://picsum.photos/seed/nft-044/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-044/300/300",
+    "creator": {
+      "address": "0xCreator004",
+      "username": "neonlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerB44",
+      "username": "cryptoKing"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0xFDF863C73B",
+    "mintDate": "2025-12-06T00:51:49Z",
+    "price": {
+      "eth": 4.33,
+      "usd": 14253
+    },
+    "lastSale": {
+      "eth": 3.17,
+      "date": "2025-12-28T00:51:49Z"
+    },
+    "likes": 139,
+    "views": 7505,
+    "status": "listed",
+    "rarityRank": 678,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon City",
+        "rarity": "22%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Digital",
+        "rarity": "9%"
+      }
+    ],
+    "stats": {
+      "power": 67,
+      "speed": 87,
+      "intelligence": 70
+    },
+    "utility": [
+      "Access to DAO"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator004",
+        "date": "2025-12-06T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator004",
+        "to": "0xOwnerB44",
+        "date": "2025-12-28T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-045",
+    "tokenId": 45,
+    "name": "Neon Apes #045",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 491.",
+    "image": "https://picsum.photos/seed/nft-045/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-045/300/300",
+    "creator": {
+      "address": "0xCreator005",
+      "username": "nftlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerD45",
+      "username": "web3Warrior"
+    },
+    "blockchain": "BNB Chain",
+    "contractAddress": "0x53BBD6E558",
+    "mintDate": "2025-09-23T00:51:49Z",
+    "price": {
+      "eth": 2.95,
+      "usd": 6288
+    },
+    "lastSale": {
+      "eth": 2.63,
+      "date": "2025-11-03T00:51:49Z"
+    },
+    "likes": 346,
+    "views": 5576,
+    "status": "auction",
+    "rarityRank": 491,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Matrix",
+        "rarity": "8%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Digital Cloak",
+        "rarity": "15%"
+      }
+    ],
+    "stats": {
+      "power": 89,
+      "speed": 80,
+      "intelligence": 96
+    },
+    "utility": [
+      "Staking rewards"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator005",
+        "date": "2025-09-23T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator005",
+        "to": "0xOwnerD45",
+        "date": "2025-11-03T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-046",
+    "tokenId": 46,
+    "name": "NFT Ninjas #046",
+    "collection": "NFT Ninjas",
+    "description": "A unique nft ninjas NFT with distinctive traits and rarity rank 928.",
+    "image": "https://picsum.photos/seed/nft-046/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-046/300/300",
+    "creator": {
+      "address": "0xCreator001",
+      "username": "cryptocreations",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerA46",
+      "username": "cryptoKing"
+    },
+    "blockchain": "Ethereum",
+    "contractAddress": "0x55C3C6AC6A",
+    "mintDate": "2025-11-09T00:51:49Z",
+    "price": {
+      "eth": 0.28,
+      "usd": 646
+    },
+    "lastSale": null,
+    "likes": 193,
+    "views": 7927,
+    "status": "listed",
+    "rarityRank": 928,
+    "attributes": [
+      {
+        "trait_type": "Eyes",
+        "value": "Hologram",
+        "rarity": "5%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Neon Hoodie",
+        "rarity": "17%"
+      }
+    ],
+    "stats": {
+      "power": 79,
+      "speed": 68,
+      "intelligence": 99
+    },
+    "utility": [
+      "DAO voting rights",
+      "Metaverse avatar"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator001",
+        "date": "2025-11-09T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-047",
+    "tokenId": 47,
+    "name": "Meta Legends #047",
+    "collection": "Meta Legends",
+    "description": "A unique meta legends NFT with distinctive traits and rarity rank 176.",
+    "image": "https://picsum.photos/seed/nft-047/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-047/300/300",
+    "creator": {
+      "address": "0xCreator002",
+      "username": "neonlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerD47",
+      "username": "nftMaster"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0xD5BCD248C6",
+    "mintDate": "2025-11-26T00:51:49Z",
+    "price": {
+      "eth": 2.58,
+      "usd": 7739
+    },
+    "lastSale": null,
+    "likes": 420,
+    "views": 8489,
+    "status": "not_for_sale",
+    "rarityRank": 176,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Pink",
+        "rarity": "13%"
+      }
+    ],
+    "stats": {
+      "power": 100,
+      "speed": 55,
+      "intelligence": 89
+    },
+    "utility": [
+      "Game access",
+      "Future airdrops",
+      "Staking rewards"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator002",
+        "date": "2025-11-26T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-048",
+    "tokenId": 48,
+    "name": "Digital Warriors #048",
+    "collection": "Digital Warriors",
+    "description": "A unique digital warriors NFT with distinctive traits and rarity rank 428.",
+    "image": "https://picsum.photos/seed/nft-048/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-048/300/300",
+    "creator": {
+      "address": "0xCreator003",
+      "username": "cryptocreations",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerB48",
+      "username": "cryptoWhale"
+    },
+    "blockchain": "Polygon",
+    "contractAddress": "0x23B6D40362",
+    "mintDate": "2025-12-28T00:51:49Z",
+    "price": {
+      "eth": 0.33,
+      "usd": 1131
+    },
+    "lastSale": {
+      "eth": 0.3,
+      "date": "2026-01-03T00:51:49Z"
+    },
+    "likes": 142,
+    "views": 2316,
+    "status": "sold",
+    "rarityRank": 428,
+    "attributes": [
+      {
+        "trait_type": "Fur",
+        "value": "Neon Green",
+        "rarity": "13%"
+      }
+    ],
+    "stats": {
+      "power": 51,
+      "speed": 98,
+      "intelligence": 56
+    },
+    "utility": [
+      "Access to DAO",
+      "VIP events",
+      "DAO voting rights"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator003",
+        "date": "2025-12-28T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator003",
+        "to": "0xOwnerB48",
+        "date": "2026-01-03T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-049",
+    "tokenId": 49,
+    "name": "Neon Apes #049",
+    "collection": "Neon Apes",
+    "description": "A unique neon apes NFT with distinctive traits and rarity rank 246.",
+    "image": "https://picsum.photos/seed/nft-049/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-049/300/300",
+    "creator": {
+      "address": "0xCreator004",
+      "username": "neonlabs",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerD49",
+      "username": "nftMaster"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0x21994DB4A9",
+    "mintDate": "2025-10-21T00:51:49Z",
+    "price": {
+      "eth": 4.36,
+      "usd": 11808
+    },
+    "lastSale": {
+      "eth": 3.5,
+      "date": "2025-11-20T00:51:49Z"
+    },
+    "likes": 436,
+    "views": 2421,
+    "status": "not_for_sale",
+    "rarityRank": 246,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon City",
+        "rarity": "7%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Red",
+        "rarity": "15%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyborg",
+        "rarity": "3%"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Hologram Wings",
+        "rarity": "13%"
+      }
+    ],
+    "stats": {
+      "power": 86,
+      "speed": 56,
+      "intelligence": 78
+    },
+    "utility": [
+      "Game access",
+      "Exclusive merch drops"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator004",
+        "date": "2025-10-21T00:51:49Z"
+      },
+      {
+        "event": "Sold",
+        "from": "0xCreator004",
+        "to": "0xOwnerC49",
+        "date": "2025-11-20T00:51:49Z"
+      }
+    ]
+  },
+  {
+    "id": "nft-050",
+    "tokenId": 50,
+    "name": "Pixel Heroes #050",
+    "collection": "Pixel Heroes",
+    "description": "A unique pixel heroes NFT with distinctive traits and rarity rank 349.",
+    "image": "https://picsum.photos/seed/nft-050/600/600",
+    "thumbnail": "https://picsum.photos/seed/nft-050/300/300",
+    "creator": {
+      "address": "0xCreator005",
+      "username": "cyberstudio",
+      "verified": true
+    },
+    "owner": {
+      "address": "0xOwnerC50",
+      "username": "ethQueen"
+    },
+    "blockchain": "Avalanche",
+    "contractAddress": "0xD2D4A97D5D",
+    "mintDate": "2026-01-02T00:51:49Z",
+    "price": {
+      "eth": 2.25,
+      "usd": 5898
+    },
+    "lastSale": {
+      "eth": 1.83,
+      "date": "2026-01-02T00:51:49Z"
+    },
+    "likes": 100,
+    "views": 9030,
+    "status": "auction",
+    "rarityRank": 349,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cyber Space",
+        "rarity": "25%"
+      },
+      {
+        "trait_type": "Fur",
+        "value": "Yellow",
+        "rarity": "9%"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyborg",
+        "rarity": "9%"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Digital Cloak",
+        "rarity": "11%"
+      }
+    ],
+    "stats": {
+      "power": 56,
+      "speed": 96,
+      "intelligence": 76
+    },
+    "utility": [
+      "Future airdrops",
+      "Access to DAO"
+    ],
+    "history": [
+      {
+        "event": "Minted",
+        "from": "0x000000",
+        "to": "0xCreator005",
+        "date": "2026-01-02T00:51:49Z"
+      },
+      {
+        "event": "Transferred",
+        "from": "0xCreator005",
+        "to": "0xOwnerA50",
+        "date": "2026-01-02T00:51:49Z"
+      }
+    ]
+  }
+]
